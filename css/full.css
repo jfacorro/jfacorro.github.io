@@ -7,6 +7,7 @@
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-color: #373737;
+    color: #FFF;
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
@@ -31,13 +32,37 @@ html {
 
 }
 
-.title {
+h1, h2 {
     font-size: 2em;
     color: #FFF;
     margin: 25px 10px;
 }
 
+h2 {
+    font-size: 1.1em;
+    color: #FFF;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.content {
+    width: 100%;
+    float: left;
+}
+
+.main {
+    background-color: transparent;
+    font-size: 1.5em;
+}
+
 .icon {
     width: 50px;
     height: auto;
+}
+
+ul {
+
+    text-shadow: 2px 2px 2px #000;
+    list-style-type: none;
 }
